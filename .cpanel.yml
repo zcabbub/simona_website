@@ -2,7 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/medcarec/repositories/simona_website
-    - /bin/cp -R assets/img $DEPLOYPATH
-    - /bin/cp css/style.css $DEPLOYPATH
-    - /bin/cp js/scripts.js $DEPLOYPATH
-    - /bin/cp index.html $DEPLOYPATH
+    - /simona_website/assets -R img $DEPLOYPATH
+    - /simona_website/css style.css $DEPLOYPATH
+    - /simona_website/js scripts.js $DEPLOYPATH
+    - /simona_website index.html $DEPLOYPATH
