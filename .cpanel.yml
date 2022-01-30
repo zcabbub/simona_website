@@ -5,4 +5,4 @@ deployment:
     -/assets -R img $DEPLOYPATH
     -/css style.css $DEPLOYPATH
     -/js scripts.js $DEPLOYPATH
-    - index.html $DEPLOYPATH
+    -index.html $DEPLOYPATH
