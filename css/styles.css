@@ -10469,3 +10469,7 @@ body {
   margin: 0 auto; /* Centers the button horizontally if width < 100% */
 }
 
+
+.rehabilitation-text {
+  letter-spacing: 2rem;
+}
