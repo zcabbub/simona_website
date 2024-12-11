@@ -10249,6 +10249,14 @@ body {
   max-width: 20rem;
   font-size: 1rem;
 }
+
+.masthead .text-service {
+  max-width: 20rem;
+
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 @media (min-width: 768px) {
   .masthead h1 {
     font-size: 4rem;
@@ -10450,3 +10458,14 @@ body {
 .rounded_corners {
   border-radius: 1rem;
 }
+
+
+.masthead .index-btn {
+  display: flex;
+  justify-content: center; /* Centers button text horizontally */
+  align-items: center; /* Centers button text vertically */
+  width: 50%; /* Makes the button responsive within its container */
+  /* max-width: 15rem; /* Restricts maximum width */ 
+  margin: 0 auto; /* Centers the button horizontally if width < 100% */
+}
+
